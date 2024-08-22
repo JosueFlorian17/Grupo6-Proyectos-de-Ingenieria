@@ -1,11 +1,10 @@
-# Grupo6-Proyectos-de-Ingenieria
+# PIG6 "Pacha Kawsay"
 
-
-Ingredientes:
+## Integrantes:
 
 | Alumnos | Rol |
 |--------------|--------------|
-| Florian Párraga, Josué Abel | nini |
-| Jara Bocanegra, Edwin Junior | nini |
-| Pérez Amado, Romina Alisson | nini |
-| Pérez Damián, Cindy Mayomi | nini |
+| Florian Párraga, Josué Abel | --- |
+| Jara Bocanegra, Edwin Junior | --- |
+| Pérez Amado, Romina Alisson | --- |
+| Pérez Damián, Cindy Mayomi | --- |
