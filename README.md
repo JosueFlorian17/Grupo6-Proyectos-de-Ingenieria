@@ -8,3 +8,6 @@
 | Jara Bocanegra, Edwin Junior | --- |
 | Pérez Amado, Romina Alisson | --- |
 | Pérez Damián, Cindy Mayomi | --- |
+
+
+somos el grupo 6
