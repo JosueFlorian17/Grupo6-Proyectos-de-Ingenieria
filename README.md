@@ -1,4 +1,4 @@
-# PIG6 "Pacha Kawsay"
+# Proyectos de Ingeniería - Grupo 6 "Pacha Kawsay"
 
 ## Integrantes:
 
