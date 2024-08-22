@@ -10,4 +10,4 @@
 | Pérez Damián, Cindy Mayomi | --- |
 
 
-somos el grupo 6
+Copyright, todos los derechos reservados.
