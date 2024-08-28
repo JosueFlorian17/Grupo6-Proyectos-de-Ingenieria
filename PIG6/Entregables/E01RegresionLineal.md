@@ -24,4 +24,21 @@ En las cuales contienen información sobre la fecha de medición, la concentraci
 <p style="text-align": justify;">Posteriormente, buscamos, gracias al mapa de calor, las variables con mayor correlación, para tomarlas en cuenta para la predicción de nuestro target, que, en este caso, será la columna de “Daily Max 8-hour Ozone Concentration”. Usando la función LinearRegression de la librería sklearn, creamos un modelo en el que introducimos nuestros datos, luego, entrenamos este modelo con los valores de X_train para la predicción de “Daily Max 8-hour Ozone Concentration”</p>
 
 ## Resultados
+
+<p style="text-align": justify;">Una vez logramos obtener un modelo entrenado, usaremos las medidas de dispersion como RMSD, obteniedno un valor de 0.877, que es cercano al valor de 1 esperado, al igual que</p>
+
+- Desviación Cuadrática Media (RMSD): 0.877, un valor próximo al esperado de 1
+- Error Medio Absoluto (MAE): 0.00374
+- Error Cuadrático Medio (MSE): 2.71e-05
+- Raíz del Error Cuadrático Medio (RMSE): 0.00520
+
+<p style="text-align": justify;">Así como un histograma de valores predichos vs valores reales,  que representa la distribución normal, con una campana de Gauss que demuestra la predicción adecuada de los valores de “Daily Max 8-hour Ozone Concentration”	</p>
+
+<p align="center">
+<img align="center" width="500" height="500" src="https://github.com/user-attachments/assets/f8b3bbb9-76bd-45d5-9ee6-599c2b438944">
+</p>
+
 ## Referencias [IEEE]
+- Cáceres, S. B. (2024). Efectos de la salud en infantes por contaminación atmosférica: Una revisión. Revista Científica Higía de la Salud, 10(1). https://www.itsup.edu.ec/myjournal/index.php/Higia/article/view/971
+
+- Our Mission and What We Do | US EPA. (2024, 1 mayo). US EPA. https://www.epa.gov/aboutepa/our-mission-and-what-we-do
