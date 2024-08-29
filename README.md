@@ -1,4 +1,7 @@
-# Proyectos de Ingeniería - Grupo 6 "Pacha Kawsay"
+<p align="left">
+  <img src="https://semanadelcannabis.cayetano.edu.pe/assets/img/logo-upch.png" width="150">
+  <h1 align="center">Pacha Kawsay</h1>
+</p>
 
 ## Roles de los miembros
 | Miembro | Rol Desempeñado | GitHub | Correo |
