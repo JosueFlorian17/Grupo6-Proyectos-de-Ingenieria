@@ -39,14 +39,14 @@ En las cuales contienen información sobre la fecha de medición, la concentraci
 </p>
 
 ## Resultados
-<p align="justify">Una vez logramos obtener un modelo entrenado, usaremos las medidas de dispersion como RMSD, obteniedno un valor de 0.877, que es cercano al valor de 1 esperado, al igual que:</p>
+<p align="justify">Tras obtener un modelo entrenado, evaluamos su rendimiento utilizando diversas medidas de dispersión. Los resultados obtenidos son los siguientes:</p>
 
 - Desviación Cuadrática Media (RMSD): 0.877, un valor próximo al esperado de 1
 - Error Medio Absoluto (MAE): 0.00374
 - Error Cuadrático Medio (MSE): 2.71e-05
 - Raíz del Error Cuadrático Medio (RMSE): 0.00520
 
-<p align="justify">Así como un histograma de valores predichos vs valores reales,  que representa la distribución normal, con una campana de Gauss que demuestra la predicción adecuada de los valores de “Daily Max 8-hour Ozone Concentration”	</p>
+<p align="justify">Estos valores, especialmente el RMSD cercano a 1, indican un buen rendimiento del modelo. Para visualizar la calidad de nuestras predicciones, generamos un histograma que compara los valores predichos con los valores reales. Este histograma muestra una distribución normal, con una campana de Gauss que sugiere una predicción adecuada de los valores de "Daily Max 8-hour Ozone Concentration".</p>
 
 <p align="center">
 <img align="center" width="500" height="500" src="https://github.com/user-attachments/assets/f8b3bbb9-76bd-45d5-9ee6-599c2b438944">
