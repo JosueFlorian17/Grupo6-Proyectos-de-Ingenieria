@@ -49,7 +49,7 @@ En las cuales contienen información sobre la fecha de medición, la concentraci
 <p align="justify">Estos valores, especialmente el RMSD cercano a 1, indican un buen rendimiento del modelo. Para visualizar la calidad de nuestras predicciones, generamos un histograma que compara los valores predichos con los valores reales. Este histograma muestra una distribución normal, con una campana de Gauss que sugiere una predicción adecuada de los valores de "Daily Max 8-hour Ozone Concentration".</p>
 
 <p align="center">
-<img align="center" width="500" height="500" src="https://github.com/user-attachments/assets/f8b3bbb9-76bd-45d5-9ee6-599c2b438944">
+  <img src="https://github.com/user-attachments/assets/260c83bb-0668-4432-9c63-239b13101e86" width="700" style="margin: auto;">
 </p>
 
 ## Referencias [IEEE]
