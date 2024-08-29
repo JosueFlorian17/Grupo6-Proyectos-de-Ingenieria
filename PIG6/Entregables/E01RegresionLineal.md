@@ -23,7 +23,7 @@ En las cuales contienen información sobre la fecha de medición, la concentraci
 </p>
 <div align="center"; style="display: flex; justify-content: space-between;">
   <img src="https://github.com/user-attachments/assets/ebad87d4-8ef3-49bd-9d6f-dbb5f8573992" width="439px"/>
-  <img src="https://github.com/user-attachments/assets/46a0f469-88e3-4128-9ce7-358940a54ba1" width="464px"/>
+  <img src="https://github.com/user-attachments/assets/46a0f469-88e3-4128-9ce7-358940a54ba1" width="463px"/>
 </div>
 
 <p align="justify">Una vez establecida la integridad de los datos, procedemos a organizarlos en orden cronológico, desde las mediciones más antiguas hasta las más recientes. Este ordenamiento es crucial para evitar inconsistencias en etapas posteriores, especialmente al dividir los datos en conjuntos de entrenamiento y prueba. Paralelamente, llevamos a cabo la normalización o estandarización de las variables necesarias, garantizando que todas las características tengan el mismo peso y relevancia en el análisis, lo cual es fundamental para que el modelo de regresión lineal pueda procesarlas adecuadamente.</p>
