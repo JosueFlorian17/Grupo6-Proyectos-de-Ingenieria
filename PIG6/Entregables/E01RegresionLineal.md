@@ -19,7 +19,7 @@ En las cuales contienen información sobre la fecha de medición, la concentraci
 <p align="justify">Nuestro análisis comienza con la carga de los conjuntos de datos correspondientes a los años 2022 y 2023, utilizando la biblioteca pandas para leer los archivos CSV. Estos datos se combinan en un único DataFrame para facilitar un análisis global y comprehensivo. Acto seguido, realizamos una exploración inicial de los datos para comprender su estructura, dimensiones y la presencia de valores faltantes o anómalos. Esta etapa incluye la verificación y manejo de datos faltantes, asegurando que el análisis subsiguiente no se vea afectado por la ausencia de información crítica.</p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/06dd756f-d511-4160-931a-a6415802c11f" width="600" style="margin: auto;">
+  <img src="https://github.com/user-attachments/assets/06dd756f-d511-4160-931a-a6415802c11f" width="800" style="margin: auto;">
 </p>
 <div align="center"; style="display: flex; justify-content: space-between;">
   <img src="https://github.com/user-attachments/assets/ebad87d4-8ef3-49bd-9d6f-dbb5f8573992" width="489px"/>
