@@ -1,5 +1,4 @@
 # Proyectos de Ingeniería - Grupo 6 "Pacha Kawsay"
-
 ## Integrantes:
 
 | Alumnos | Rol |
@@ -8,6 +7,3 @@
 | Jara Bocanegra, Edwin Junior | --- |
 | Pérez Amado, Romina Alisson | --- |
 | Pérez Damián, Cindy Mayomi | --- |
-
-
-Copyright, todos los derechos reservados.
