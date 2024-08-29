@@ -29,13 +29,13 @@ En las cuales contienen información sobre la fecha de medición, la concentraci
 <p align="justify">Una vez establecida la integridad de los datos, procedemos a organizarlos en orden cronológico, desde las mediciones más antiguas hasta las más recientes. Este ordenamiento es crucial para evitar inconsistencias en etapas posteriores, especialmente al dividir los datos en conjuntos de entrenamiento y prueba. Paralelamente, llevamos a cabo la normalización o estandarización de las variables necesarias, garantizando que todas las características tengan el mismo peso y relevancia en el análisis, lo cual es fundamental para que el modelo de regresión lineal pueda procesarlas adecuadamente.</p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1228029a-f160-461a-ad82-f1aca789bf48" width="800" style="margin: auto;">
+  <img src="https://github.com/user-attachments/assets/1228029a-f160-461a-ad82-f1aca789bf48" width="700" style="margin: auto;">
 </p>
 
 <p align="justify">Con la información debidamente preparada, avanzamos hacia la realización de nuestra regresión lineal. Utilizamos un mapa de calor para identificar las variables con mayor correlación, las cuales serán consideradas para la predicción de nuestro objetivo: la "Daily Max 8-hour Ozone Concentration". Empleando la función LinearRegression de la librería sklearn, construimos un modelo al que introducimos nuestros datos, aprovechando el orden cronológico para evitar problemas temporales, para así no predecir valores del pasado entrenándonos con datos del futuro. Finalmente, entrenamos este modelo con los valores de X_train para la predicción de la concentración de ozono, estableciendo así las bases para nuestro análisis predictivo.</p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5ad84333-f06b-4d51-a71b-a4af678f7fe8" width="800" style="margin: auto;">
+  <img src="https://github.com/user-attachments/assets/5ad84333-f06b-4d51-a71b-a4af678f7fe8" width="700" style="margin: auto;">
 </p>
 
 ## Resultados
