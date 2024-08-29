@@ -18,7 +18,9 @@ En las cuales contienen información sobre la fecha de medición, la concentraci
 ## Metodología
 <p align="justify">Nuestro análisis comienza con la carga de los conjuntos de datos correspondientes a los años 2022 y 2023, utilizando la biblioteca pandas para leer los archivos CSV. Estos datos se combinan en un único DataFrame para facilitar un análisis global y comprehensivo. Acto seguido, realizamos una exploración inicial de los datos para comprender su estructura, dimensiones y la presencia de valores faltantes o anómalos. Esta etapa incluye la verificación y manejo de datos faltantes, asegurando que el análisis subsiguiente no se vea afectado por la ausencia de información crítica.</p>
 
-![image](https://github.com/user-attachments/assets/06dd756f-d511-4160-931a-a6415802c11f)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/06dd756f-d511-4160-931a-a6415802c11f" width="600" style="margin: auto;">
+</p>
 <div align="center"; style="display: flex; justify-content: space-between;">
   <img src="https://github.com/user-attachments/assets/ebad87d4-8ef3-49bd-9d6f-dbb5f8573992" width="489px"/>
   <img src="https://github.com/user-attachments/assets/46a0f469-88e3-4128-9ce7-358940a54ba1" width="518px"/>
@@ -26,11 +28,15 @@ En las cuales contienen información sobre la fecha de medición, la concentraci
 
 <p align="justify">Una vez establecida la integridad de los datos, procedemos a organizarlos en orden cronológico, desde las mediciones más antiguas hasta las más recientes. Este ordenamiento es crucial para evitar inconsistencias en etapas posteriores, especialmente al dividir los datos en conjuntos de entrenamiento y prueba. Paralelamente, llevamos a cabo la normalización o estandarización de las variables necesarias, garantizando que todas las características tengan el mismo peso y relevancia en el análisis, lo cual es fundamental para que el modelo de regresión lineal pueda procesarlas adecuadamente.</p>
 
-![image](https://github.com/user-attachments/assets/1228029a-f160-461a-ad82-f1aca789bf48)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1228029a-f160-461a-ad82-f1aca789bf48" width="600" style="margin: auto;">
+</p>
 
 <p align="justify">Con la información debidamente preparada, avanzamos hacia la realización de nuestra regresión lineal. Utilizamos un mapa de calor para identificar las variables con mayor correlación, las cuales serán consideradas para la predicción de nuestro objetivo: la "Daily Max 8-hour Ozone Concentration". Empleando la función LinearRegression de la librería sklearn, construimos un modelo al que introducimos nuestros datos, aprovechando el orden cronológico para evitar problemas temporales, para así no predecir valores del pasado entrenándonos con datos del futuro. Finalmente, entrenamos este modelo con los valores de X_train para la predicción de la concentración de ozono, estableciendo así las bases para nuestro análisis predictivo.</p>
 
-![image](https://github.com/user-attachments/assets/5ad84333-f06b-4d51-a71b-a4af678f7fe8)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5ad84333-f06b-4d51-a71b-a4af678f7fe8" width="600" style="margin: auto;">
+</p>
 
 ## Resultados
 <p align="justify">Una vez logramos obtener un modelo entrenado, usaremos las medidas de dispersion como RMSD, obteniedno un valor de 0.877, que es cercano al valor de 1 esperado, al igual que:</p>
