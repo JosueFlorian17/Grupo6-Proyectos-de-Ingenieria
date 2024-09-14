@@ -52,10 +52,17 @@ A continuación, observamos cómo, gracias a un archivo de python, se descargan 
     <img src="https://github.com/user-attachments/assets/f4501f9d-0163-4ba1-86a5-7c709721384f" alt="Descripción de la imagen" width="300">
 </p>
 
-Adicionalmente, ras
+Adicionalmente, rasterizamos las imágenes para darles un formato más "pixelado" que será mejor entendido por la computadora como un vector y nos dará un mayor margen para el reconocimiento al ser bloques más grandes,
+
 <p style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/eb7fe2d3-0191-4c39-bc24-968321eb4f5c" alt="Descripción de la imagen" width="300">
+    <img src="https://github.com/user-attachments/assets/eb7fe2d3-0191-4c39-bc24-968321eb4f5c" alt="Descripción de la imagen" width="300"></p>
+
+ Obteniendo, así, finalmente, un dataset de trazos que serán reconocidos como números gracias a sus etiquetas, como veremos a continuación:
+ <p style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/28f6eb40-9baf-4fc8-b845-d1c35d928ec5" alt="Descripción de la imagen" width="300">
 	</p>
+
+
 
 ### 5. Implementación del Control de LEDs
 <p align="justify">Como fase final del desarrollo, se diseñó e implementó un sistema de retroalimentación visual mediante LEDs:</p>
