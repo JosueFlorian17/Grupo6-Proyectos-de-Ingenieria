@@ -47,22 +47,20 @@ El sistema está diseñado para realizar las siguientes acciones:
 - Entrenamiento del modelo de machine learning utilizando los datos ampliados, empleando técnicas de aprendizaje supervisado.
 - Validación cruzada para evaluar la efectividad del modelo entrenado.
 
-A continuación, observamos cómo, gracias a un archivo de python, se descargan y descomprimen imágenes que hacen referencia al trazo obtenido por el giroscopio y acelerómetro del arduino nano 33 BLE, de manera que podamos tener una base para el modelo de reconocimiento
-<p style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/f4501f9d-0163-4ba1-86a5-7c709721384f" alt="Descripción de la imagen" width="300">
+<p align="justify">A continuación, realizamos el proceso mediante el cual se descargan y descomprimen imágenes generadas a partir de los datos de trazos obtenidos por el giroscopio y acelerómetro del Arduino Nano 33 BLE. Este procedimiento se realiza mediante un script en Python, con el fin de crear una base de datos que sirva como referencia para el modelo de reconocimiento de patrones.</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f4501f9d-0163-4ba1-86a5-7c709721384f" alt="Descripción de la imagen" width="700" style="margin: auto;">
 </p>
 
-Adicionalmente, rasterizamos las imágenes para darles un formato más "pixelado" que será mejor entendido por la computadora como un vector y nos dará un mayor margen para el reconocimiento al ser bloques más grandes,
+<p align="justify">Posteriormente, las imágenes se rasterizan con el objetivo de transformar los trazos en un formato más "pixelado". Este proceso facilita que los datos sean interpretados de manera más eficiente por el sistema, ya que convierte los trazos en bloques más grandes y definidos, lo cual mejora el rendimiento del modelo de reconocimiento.</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/eb7fe2d3-0191-4c39-bc24-968321eb4f5c" alt="Descripción de la imagen" width="700" style="margin: auto;">
+</p>
 
-<p style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/eb7fe2d3-0191-4c39-bc24-968321eb4f5c" alt="Descripción de la imagen" width="300"></p>
-
- Obteniendo, así, finalmente, un dataset de trazos que serán reconocidos como números gracias a sus etiquetas, como veremos a continuación:
- <p style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/28f6eb40-9baf-4fc8-b845-d1c35d928ec5" alt="Descripción de la imagen" width="300">
-	</p>
-
-
+<p align="justify">Finalmente, el conjunto de datos resultante consiste en imágenes etiquetadas, lo que permitirá al modelo identificar correctamente los números a partir de los trazos. A continuación, se muestra un ejemplo del dataset generado:</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/28f6eb40-9baf-4fc8-b845-d1c35d928ec5" alt="Descripción de la imagen" width="700" style="margin: auto;">
+</p>
 
 ### 5. Implementación del Control de LEDs
 <p align="justify">Como fase final del desarrollo, se diseñó e implementó un sistema de retroalimentación visual mediante LEDs:</p>
