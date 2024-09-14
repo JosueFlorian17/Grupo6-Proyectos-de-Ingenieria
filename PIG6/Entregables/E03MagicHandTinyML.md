@@ -57,7 +57,7 @@ A continuación se presentan algunas imágenes capturadas durante las pruebas:
 
 <p align="justify">Adicionalmente, el siguiente video muestra una demostración del sistema en funcionamiento, donde se puede observar cómo los gestos dibujados son reconocidos y los LEDs se encienden de acuerdo con el patrón detectado.</p>
 
-https://github.com/user-attachments/assets/8f78f86b-dec6-4b38-8a04-152faa2ff47b
+https://github.com/user-attachments/assets/002fc979-4103-43a4-a4b3-f40befe087e9
 
 ## Referencias
 - Diego, C. S., Emilio, S. O., María, M. M. J., Juan, G. S., Marcelino, M. S., Pedro, D. M., & Regino, B. C. (2021). Tiny ML: La nueva revolución en la IoT. https://roderic.uv.es/items/bae51b9b-e128-48e7-aa73-367dd8d45081
