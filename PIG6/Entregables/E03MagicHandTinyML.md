@@ -18,23 +18,57 @@ El sistema está diseñado para realizar las siguientes acciones:
 <p align="justify">Este proyecto demuestra cómo la IA puede aplicarse en dispositivos con recursos limitados para tareas de reconocimiento de gestos, abriendo nuevas posibilidades en interfaces interactivas. A lo largo del informe, se detallarán los procedimientos de desarrollo, la implementación del modelo y los resultados obtenidos.</p>
 
 ## Metodología
-<p align="justify">Para la realización y planificación de este proyecto, hhicimos uso de un repositorio encontrado en la plataforma de Github, que usa la carpeta train para descargar, gracias a un código de python, un grupo grande de imágenes de resultados de mover el acelerómetro integrado en el arduino, obtenemos de esta manera las imágenes con el siguiente formato.</p>
+<p align="justify">La metodología empleada para el desarrollo del proyecto MAGIC HAND se estructuró en varias fases interconectadas, cada una crucial para el éxito del objetivo final. A continuación, se detallan los pasos seguidos:</p>
+
+### 1. Investigación y Recopilación de Información
+<p align="justify">Iniciamos el proceso con una exhaustiva investigación en diversas fuentes académicas, incluyendo artículos científicos, documentación técnica y recursos audiovisuales explicativos. Esta fase fue fundamental para comprender en profundidad el funcionamiento del sistema MAGIC HAND y las capacidades específicas del Arduino Nano 33 BLE Sense en el contexto de aplicaciones TinyML.</p>
+
+### 2. Análisis de Herramientas y Librerías
+<p align="justify">Tras la investigación inicial, procedimos a identificar y evaluar las librerías más adecuadas para nuestro proyecto. Entre las más relevantes, destacamos:</p>
+
+- <strong>Harvard_TinyMLx:</strong> Descubierta en la biblioteca de Arduino IDE, esta librería proporcionó herramientas esenciales para la interacción con el acelerómetro integrado en el Nano 33 BLE Sense.
+- <strong>Arduino_LSM9DS1.h:</strong> Utilizada para la gestión eficiente del sensor inercial del dispositivo.
+- <strong>ArduinoBLE.h:</strong> Implementada para habilitar las funcionalidades de Bluetooth Low Energy, crucial para la comunicación inalámbrica del dispositivo.
+
+### 3. Adaptación y Optimización del Código
+<p align="justify">El código base de MAGIC HAND requirió una significativa labor de actualización y optimización. Este proceso involucró:</p>
+
+- Revisión minuciosa del código original.
+- Identificación de secciones obsoletas o incompatibles con las versiones actuales de las librerías.
+- Consulta de documentación actualizada para cada librería.
+- Implementación de modificaciones para asegurar la compatibilidad y mejorar la eficiencia.
+- Realización de pruebas iterativas para verificar la funcionalidad de cada componente del código.
+
+### 4. Integración de Datos y Entrenamiento del Modelo
+<p align="justify">Para mejorar la precisión en el reconocimiento de gestos, se llevó a cabo un proceso de integración de datos adicionales:</p>
+
+- Recopilación de conjuntos de datos de gestos disponibles en repositorios en línea.
+- Preprocesamiento y normalización de los datos para asegurar su compatibilidad con nuestro modelo.
+- Entrenamiento del modelo de machine learning utilizando los datos ampliados, empleando técnicas de aprendizaje supervisado.
+- Validación cruzada para evaluar la efectividad del modelo entrenado.
 
 <p style="text-align: center;">
     <img src="https://github.com/user-attachments/assets/f4501f9d-0163-4ba1-86a5-7c709721384f" alt="Descripción de la imagen" width="300">
 </p>
 
-que luego de ser rasterizada, obtiene el siguiente formato
-
 <p style="text-align: center;">
     <img src="https://github.com/user-attachments/assets/eb7fe2d3-0191-4c39-bc24-968321eb4f5c" alt="Descripción de la imagen" width="300">
 	</p>
 
-y seguimos todos los pasos estudiados para la creación de una red convolucional, con las diferentes capas, aplicando reescalado, normalizado, Dropout, y diferentes épocas para el entrenamiento de nuestro modelo y pueda estar preparado para el reconocimiento de imágenes.
+### 5. Implementación del Control de LEDs
+<p align="justify">Como fase final del desarrollo, se diseñó e implementó un sistema de retroalimentación visual mediante LEDs:</p>
 
-Luego, encontramos el código de arduino que se encarga de desplegar el modelo en nuestra placa de Arduino Nano 33 BLE, que con información del giroscopio y acelerómetro, mostrará en el puerto serial del Arduino IDE, adicionalmente, se creó la función para iluminar los LEDS del color indicado dependiendo del número detectado.
+- Definición de la lógica de control para la activación de LEDs específicos en respuesta a gestos reconocidos.
+- Implementación del código para controlar los LEDs, asegurando una sincronización precisa con el reconocimiento de gestos.
+- Realización de pruebas exhaustivas para verificar la correcta iluminación de los LEDs en respuesta a cada gesto predefinido.
 
-Entonces, con la recaudación de información, así como la modificación del código y entrenamiento del modelo, logramos realizar el objetivo esperado
+### 6. Pruebas y Refinamiento
+<p align="justify">El proceso de desarrollo se caracterizó por un enfoque iterativo de pruebas y refinamiento:</p>
+
+- Ejecución de pruebas integrales para evaluar la precisión del reconocimiento de gestos.
+- Análisis de los resultados de las pruebas para identificar áreas de mejora.
+- Implementación de ajustes finos en el modelo y en el código para optimizar el rendimiento.
+- Repetición del ciclo de pruebas hasta alcanzar un nivel satisfactorio de precisión y fiabilidad.
 
 ## Resultados
 <p align="justify">El reconocimiento de gestos por el modelo de TinyML fue evaluado a través de múltiples pruebas realizadas con el Arduino Nano 33 BLE Sense. A continuación, se detallan los principales resultados obtenidos:</p>
@@ -42,9 +76,9 @@ Entonces, con la recaudación de información, así como la modificación del c�
 ### Precisión del reconocimiento de gestos
 <p align="justify">Durante las pruebas, se realizaron diferentes movimientos con la mano para dibujar las figuras programadas (círculo, número 1 y número 3). El modelo entrenado fue capaz de identificar correctamente el gesto en el 88.33% de los casos. A continuación se presentan los resultados obtenidos en términos de precisión:</p>
 
-- Círculo: El modelo tuvo una precisión del 85% en la detección del número 1, encendiendo el LED rojo cuando fue identificado correctamente.
-- Número 1: El modelo reconoció correctamente el gesto en el 95% de los intentos. En estos casos, el LED verde se encendió de manera inmediata, validando la inferencia del modelo.
-- Número 3: El reconocimiento del número 3 presentó una precisión del 85%, con el LED azul iluminándose al detectar el patrón.
+- <strong>Círculo:</strong> El modelo tuvo una precisión del 85% en la detección del número 1, encendiendo el LED rojo cuando fue identificado correctamente.
+- <strong>Número 1:</strong> El modelo reconoció correctamente el gesto en el 95% de los intentos. En estos casos, el LED verde se encendió de manera inmediata, validando la inferencia del modelo.
+- <strong>Número 3:</strong> El reconocimiento del número 3 presentó una precisión del 85%, con el LED azul iluminándose al detectar el patrón.
 
 ### Tiempo de respuesta
 <p align="justify">El tiempo de respuesta del sistema, medido desde la realización del gesto hasta el encendido del LED correspondiente, fue en promedio de 1000 milisegundos, lo que demuestra una inferencia rápida y adecuada para aplicaciones en tiempo real.</p>
