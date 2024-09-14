@@ -57,7 +57,7 @@ El sistema está diseñado para realizar las siguientes acciones:
   <img src="https://github.com/user-attachments/assets/eb7fe2d3-0191-4c39-bc24-968321eb4f5c" width="300" style="margin: auto;">
 </p>
 
-<p align="justify">Finalmente, el conjunto de datos resultante consiste en imágenes etiquetadas, lo que permitirá al modelo identificar correctamente los números a partir de los trazos. A continuación, se muestra un ejemplo del dataset generado:</p>
+<p align="justify">Finalmente, el conjunto de datos resultante incluye imágenes etiquetadas de números, así como de la figura del círculo. Estos trazos, extraídos a partir de gestos realizados en el aire, serán utilizados para entrenar al modelo a reconocer no solo números, sino también formas geométricas simples. El reconocimiento de estos patrones será crucial para el funcionamiento del proyecto Magic Wand, donde el sistema encenderá LEDs en función del reconocimiento de gestos específicos, como el número "1", "3" o un círculo.</p>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/28f6eb40-9baf-4fc8-b845-d1c35d928ec5" width="400" style="margin: auto;">
 </p>
