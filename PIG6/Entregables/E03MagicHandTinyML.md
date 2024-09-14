@@ -62,14 +62,6 @@ El sistema está diseñado para realizar las siguientes acciones:
 - Implementación del código para controlar los LEDs, asegurando una sincronización precisa con el reconocimiento de gestos.
 - Realización de pruebas exhaustivas para verificar la correcta iluminación de los LEDs en respuesta a cada gesto predefinido.
 
-### 6. Pruebas y Refinamiento
-<p align="justify">El proceso de desarrollo se caracterizó por un enfoque iterativo de pruebas y refinamiento:</p>
-
-- Ejecución de pruebas integrales para evaluar la precisión del reconocimiento de gestos.
-- Análisis de los resultados de las pruebas para identificar áreas de mejora.
-- Implementación de ajustes finos en el modelo y en el código para optimizar el rendimiento.
-- Repetición del ciclo de pruebas hasta alcanzar un nivel satisfactorio de precisión y fiabilidad.
-
 ## Resultados
 <p align="justify">El reconocimiento de gestos por el modelo de TinyML fue evaluado a través de múltiples pruebas realizadas con el Arduino Nano 33 BLE Sense. A continuación, se detallan los principales resultados obtenidos:</p>
 
