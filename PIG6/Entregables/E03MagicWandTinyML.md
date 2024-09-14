@@ -47,10 +47,12 @@ El sistema está diseñado para realizar las siguientes acciones:
 - Entrenamiento del modelo de machine learning utilizando los datos ampliados, empleando técnicas de aprendizaje supervisado.
 - Validación cruzada para evaluar la efectividad del modelo entrenado.
 
+A continuación, observamos cómo, gracias a un archivo de python, se descargan y descomprimen imágenes que hacen referencia al trazo obtenido por el giroscopio y acelerómetro del arduino nano 33 BLE, de manera que podamos tener una base para el modelo de reconocimiento
 <p style="text-align: center;">
     <img src="https://github.com/user-attachments/assets/f4501f9d-0163-4ba1-86a5-7c709721384f" alt="Descripción de la imagen" width="300">
 </p>
 
+Adicionalmente, ras
 <p style="text-align: center;">
     <img src="https://github.com/user-attachments/assets/eb7fe2d3-0191-4c39-bc24-968321eb4f5c" alt="Descripción de la imagen" width="300">
 	</p>
