@@ -18,6 +18,10 @@ El sistema está diseñado para realizar las siguientes acciones:
 <p align="justify">Este proyecto demuestra cómo la IA puede aplicarse en dispositivos con recursos limitados para tareas de reconocimiento de gestos, abriendo nuevas posibilidades en interfaces interactivas. A lo largo del informe, se detallarán los procedimientos de desarrollo, la implementación del modelo y los resultados obtenidos.</p>
 
 ## Metodología
+
+Link con la carpeta de códigos utilizados:
+https://github.com/JosueFlorian17/PIG6_PachaKawsay/tree/main/PIG6%2FEntregables%2FE03MagicWandTinyML
+
 <p align="justify">La metodología empleada para el desarrollo del Magic Wand se estructuró en varias fases interconectadas, cada una crucial para el éxito del objetivo final. A continuación, se detallan los pasos seguidos:</p>
 
 ### 1. Investigación y Recopilación de Información
